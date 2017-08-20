@@ -14,6 +14,6 @@ public class ThingTest {
   public void test() {
     boolean result = subject.tryMe();
 
-    assertTrue(result);
+    assertTrue(!result);
   }
 }
